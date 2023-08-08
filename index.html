@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+      .bgmain{
+        background-color: #2f3c7e;
+      
+      }
+      
+      .image{
+        width: 100%;
+        height: 600px;
+      }
+    </style>
+</head>
+<body>
+    <!-- Nevigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bgmain">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h1 style="color: #fbeaeb;">ATTIRE</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COLLECTION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPECIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">POPULAR</a>
+            </li>
+           
+         
+        </div>
+      </div>
+    </nav>
+
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Popular</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="inputPassword5" class="form-label">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</div>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!-- image start here -->
+     <div class="container">
+     <img src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80" class="img-fluid image" alt="...">
+  </div>
+
+    <!-- cards start here -->
+     <div class="container"><br><br>
+      <div class="row"> 
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/beautiful-men-fashion-shirt_74190-5185.jpg?w=900&t=st=1690662701~exp=1690663301~hmac=4148a5698489b9fd7405d2251f8c9f621ac2021b4ede0da317d9897b8e6074de" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">kids shirt</h5>
+              <p class="card-text">$ 690</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/glasses-near-casual-outfit_23-2147710378.jpg?w=900&t=st=1690662680~exp=1690663280~hmac=0c4334e22ac05cda27f166fa0ab921e8ea0550cd9c0705a3d8adc33fc5c9de70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casual shirt</h5>
+              <p class="card-text">$ 880</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/premium-photo/pink-jacket-jumper-hanger-with-sneakers-set-baby-clothes-accessories-spring-autumn-white-background-fashion-kids-outfit-flat-lay-top-view_479776-7509.jpg?w=900" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">baby frock</h5>
+              <p class="card-text">$ 990</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!-- Google map start here -->
+  <div class="container"><br><br>
+    <div class="row">
+      <div class="col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.792069820032!2d72.57280417481765!3d23.06808347914189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83869f1a16ab%3A0x97228ab06cf90e5e!2sTRENDS!5e0!3m2!1sen!2sin!4v1690663452992!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+      <!-- Accordian start here -->
+      <div class="container"><br><br>
+        <div class="row">
+          <div class="col-md-6" style="color: #2f3c7e; background-color:#fbeaeb;">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> Shopping refers to any time that a customer browses products or services from one or more sellers, with the intention of buying something. Shopping is an essential part of modern life. so, it makes for a great creative wriying topic! 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> People have shopped in marketplaces, shopping malls or high streets. In previous time, shopping was done out of necessity because not everybody had the resources to produce food themeselves. So, people would buy crops from farmers, bread from bakers, and so on.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> Today, however, shopping has developed into a world of its own. Lots of people see shopping as more than just a necessity. It's now commonly thought of as a fun activity to do with friends or family.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!--Utube video  -->
+          <div class="col-md-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/qDhKisxsfG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+        
+       <!-- card starts here -->
+      <div class="container"><br><br><br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://img.freepik.com/free-photo/pretty-red-head-woman-yellow-dress-posing-yellow-summer-mood_273443-4421.jpg?w=1060&t=st=1690667042~exp=1690667642~hmac=47594d26d5a5e1394c2a60d9701ae8aba288068f218402dee6d05791ca3da856" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">yellow western frock</h5>
+                <p class="card-text">$ 560</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://img.freepik.com/free-photo/flat-lay-baby-clothes-with-photo-camera_23-2148251497.jpg?w=900&t=st=1690667130~exp=1690667730~hmac=5daf8d1403799579852249e383668e72188361b6a1ca1945add07bddfaedeefb" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baby wear</h5>
+                <p class="card-text">$ 870</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://img.freepik.com/free-photo/top-view-yellow-sweater-with-toys_23-2148251496.jpg?w=900&t=st=1690667160~exp=1690667760~hmac=f035852d2098342363df020f09fbd94f260147c97c738224ffb8f7d93bde2ee3" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baby sweater</h5>
+                <p class="card-text">$ 760</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://img.freepik.com/free-photo/baby-dress-surrounded-with-milk-bottle-pacifier-brush-shoes-ultrasound-picture-blue-background_23-2147900552.jpg?w=1060&t=st=1690667181~exp=1690667781~hmac=1645e5788379c70e74e863caadfa03f4f9e492776c4f124daf98eddd869a536c" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baby Frock</h5>
+                <p class="card-text">$ 550</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paragraph starts here -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p style="background-color: #2f3c7e; color: #fbeaeb; font-family:'Arial;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellendus cupiditate, ad soluta laboriosam, commodi non nihil necessitatibus cum, nesciunt sit? Autem, nesciunt aspernatur facere est unde rem natus. Nostrum in earum, id maxime rem aspernatur quod modi qui quis dolor impedit sint et magni minima ullam ea iste, optio perferendis nobis saepe libero! Dicta earum ipsum aliquid maxime tempora placeat, molestias quo amet, accusantium fuga dolorum eaque deleniti numquam totam suscipit. Earum inventore vitae animi odio? Libero ad quos pariatur sequi, fugiat itaque facilis quasi, corporis accusamus, dolorum sed illo amet! Enim modi nisi sequi? Nesciunt tempore quod at ipsum saepe voluptatibus autem quaerat! Optio tenetur alias, corrupti facere voluptatibus blanditiis officia perspiciatis reprehenderit excepturi officiis dolorem maiores est nobis ut similique quae molestias libero quos nam accusamus aperiam! Minima iste distinctio illo, cum laborum architecto repudiandae alias tempora, blanditiis dolore, quae veniam tempore tenetur possimus officiis quos itaque provident dolorem saepe odit necessitatibus suscipit eaque? Recusandae corrupti praesentium a iusto. Nesciunt cum, architecto amet illum deleniti corporis itaque enim dolor nam voluptas velit fuga earum? Esse minus quisquam, sed maxime, eius corrupti fugiat, molestias corporis ipsam accusamus perspiciatis quibusdam! Suscipit ducimus earum, at alias repellendus commodi, similique natus corrupti in quis esse laudantium autem assumenda illum velit repudiandae. Magni, doloribus. Praesentium labore ut unde libero commodi dignissimos eaque, beatae nam perspiciatis reiciendis ipsum sunt quibusdam voluptatem earum est culpa ullam saepe ipsam dicta deserunt quidem? Id tenetur ratione quibusdam qui eligendi hic corporis ut? Beatae delectus omnis dolore magnam aut dolores vitae odio aperiam nihil. Necessitatibus, vero. Totam mollitia atque ab, sit sint laborum repellendus ipsum. Aliquid voluptatibus aspernatur eligendi suscipit, dolorem, dolores et quam optio ea explicabo quod, accusantium incidunt. Et ullam cum provident pariatur eos non fugit quidem magni animi culpa, repudiandae minus? Voluptas veritatis facere eius tenetur modi, ut eum molestias, quibusdam vero ratione quia nihil nostrum iure animi a tempore neque, culpa sed possimus aliquam at corporis necessitatibus? Libero sint accusantium eum hic doloribus ipsam temporibus voluptatum id veniam iste fugit assumenda, numquam et. Laborum esse aliquam quaerat voluptatibus vero quasi quas, aperiam necessitatibus natus fugit possimus numquam illum sequi consequuntur debitis corrupti recusandae sapiente perferendis modi iusto provident consectetur nulla. Animi voluptate sunt repudiandae! Earum quia omnis iste veniam, adipisci facilis nesciunt itaque mollitia est autem animi rerum nobis, eos hic incidunt vitae, distinctio fugit ipsum quaerat officiis necessitatibus. Possimus impedit quia qui, ducimus atque ex. Qui odio maxime quam asperiores aperiam harum in! Ab cum aliquam ipsam earum, nostrum soluta deleniti, sint atque veritatis inventore eum itaque quo asperiores perspiciatis illum hic vero amet fuga dolore deserunt. Et ipsa nostrum qui ab praesentium odio sapiente minus accusantium ducimus perferendis voluptatem itaque quibusdam facere impedit, delectus quia expedita sed iusto ex quaerat consequatur? Aperiam, quia nisi eos minus voluptates quo laudantium quibusdam, quae ex, sapiente facilis. Minima maxime vero veritatis consectetur itaque perspiciatis enim alias rerum, voluptatibus laborum voluptas veniam hic. Ducimus eaque quidem libero! Quia doloremque quidem, fugiat vel mollitia explicabo omnis?</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Annimation start here -->
+
+     <div class="container">
+      <div class="row"><br><br><br>
+        <div class="col-md-3">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/4a15b3cc-676d-426b-baf1-e50d5ccd6ee7/u189YIgezQ.json" background="#FFFFFF” speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+
+        <div class="col-md-3">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9e522f36-16af-4872-a045-8e14892f4e8c/ZcxLxdD4Uk.json" background=“#fff” speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+
+        <div class="col-md-3">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/54b822b1-5932-452c-9788-01a9c9c0e237/0aPVYvo53Q.json" background="#fff" speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+
+        <div class="col-md-3">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/68a46d36-be9e-49a1-ac6e-51d2235f4eb6/8E0Grsp1cl.json" background="#FFFFFF" speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+
+      </div>
+     </div>
+
+<!-- cards start here -->
+     <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img src="https://img.freepik.com/free-photo/indoor-hotel-view_1417-1566.jpg?w=1060&t=st=1690718199~exp=1690718799~hmac=f567e3d190b08ae925c4a487771f611b4a6d0cd95f3aed13125daa297c362a4a" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Attire</h5>
+              <p class="card-text">Please visit our website and collect best product with good Quality</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Attire</h5>
+              <p class="card-text">Contact Us </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <img src="https://img.freepik.com/free-photo/young-couple-protection-mask-holding-multiple-paper-shopping-bag-walking-corridor-large-shopping-mall_1150-47177.jpg?w=1060&t=st=1690718214~exp=1690718814~hmac=ad04596894da0b1516c86ad0cdbe3f66e21e0d1af1d5905262ebba223c2851ac" class="card-img-bottom" alt="...">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card bg-dark text-white">
+            <img src="https://img.freepik.com/premium-photo/colorful-plaids-masai-tribe-african-blankets-from-kenya-tanzania_73683-218.jpg?w=750 " class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><h1>Attire</h1></h5>
+              <p class="card-text"><button style="background-color: #2f3c7e; color: #fbeaeb;">Paytm</button></p>
+              <p class="card-text">DRIP INSPIRED BY STREETSCAPES.<br>FLAT $ 150 CASHBACK* <br> On paytm Wallet Transaction<br> <h3>FLAT 25% OFF</h3></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+<div class="container"><br><br>
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="card text-white bg-secondary mb-3" style="max-width: 100%;">
+        <div class="card-header">Kotak card</div>
+        <div class="card-body">
+          <h5 class="card-title">7.5% INSTANT DISCOUNT<br> On Every spends <hr></h5>
+          <p class="card-text">$ 1000 Welcome E-Gift Voucher<br> Limited period Offer</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
